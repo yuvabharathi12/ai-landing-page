@@ -58,7 +58,7 @@ export function FoundersCTA() {
           >
             <div className="rounded-2xl border-2 border-blue-700 bg-white p-8 shadow-2xl">
               <div className="flex items-center gap-3 mb-6">
-                <div className="rounded-lg bg-orange-500 p-2">
+                <div className="rounded-lg bg-blue-700 p-2">
                   <Clock className="h-6 w-6 text-white" />
                 </div>
                 <div>
@@ -99,7 +99,7 @@ export function FoundersCTA() {
                 </div>
               </div>
 
-              <button className="w-full inline-flex items-center justify-center gap-2 rounded-lg bg-orange-500 px-6 py-4 text-lg font-semibold text-white shadow-lg hover:bg-orange-600 transition-colors">
+              <button className="w-full inline-flex items-center justify-center gap-2 rounded-lg bg-blue-700 px-6 py-4 text-lg font-semibold text-white shadow-lg hover:bg-blue-800 transition-colors">
                 Secure Your Feasibility Audit
                 <ArrowRight className="h-5 w-5" />
               </button>

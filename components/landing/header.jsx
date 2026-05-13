@@ -32,7 +32,7 @@ export function Header() {
             <a href="#industries" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">
               Industries
             </a>
-            <button className="rounded-lg bg-orange-500 px-4 py-2 text-sm font-semibold text-white hover:bg-orange-600 transition-colors">
+            <button className="rounded-lg bg-blue-700 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-800 transition-colors">
               Get Started
             </button>
           </div>
@@ -61,7 +61,7 @@ export function Header() {
               <a href="#industries" className="text-sm font-medium text-slate-600 hover:text-slate-900">
                 Industries
               </a>
-              <button className="rounded-lg bg-orange-500 px-4 py-2 text-sm font-semibold text-white hover:bg-orange-600 transition-colors">
+              <button className="rounded-lg bg-blue-700 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-800 transition-colors">
                 Get Started
               </button>
             </div>

@@ -138,7 +138,7 @@ export function IndustrySwitcher() {
                   </div>
                 ))}
               </div>
-              <button className="inline-flex items-center justify-center gap-2 rounded-lg bg-orange-500 px-6 py-3 text-base font-semibold text-white shadow-lg hover:bg-orange-600 transition-colors">
+              <button className="inline-flex items-center justify-center gap-2 rounded-lg bg-blue-700 px-6 py-3 text-base font-semibold text-white shadow-lg hover:bg-blue-800 transition-colors">
                 Get {activeIndustry.name} Layout Quote
               </button>
             </div>
