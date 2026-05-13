@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'LayoutX.Ai - AI-Powered Industrial Layout Engineering',
+  description: '20 years of civil engineering wisdom accelerated by Agentic AI. Transform complex site constraints into optimized industrial layouts with board-ready feasibility studies in 48 hours.',
   generator: 'v0.app',
   icons: {
     icon: [

@@ -1,16 +1,33 @@
+import { Header } from "@/components/landing/header";
+import { HeroSection } from "@/components/landing/hero-section";
+import { ProofBar } from "@/components/landing/proof-bar";
+import { LossAversionSection } from "@/components/landing/loss-aversion-section";
+import { FrameworkSection } from "@/components/landing/framework-section";
+import { DeliverablesSection } from "@/components/landing/deliverables-section";
+import { IndustrySwitcher } from "@/components/landing/industry-switcher";
+import { FoundersCTA } from "@/components/landing/founders-cta";
+import { Footer } from "@/components/landing/footer";
+
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center font-sans">
-      <main className="flex w-full max-w-3xl flex-col items-center gap-8 px-6 py-16 text-center sm:items-start sm:text-left">
-        <div className="flex flex-col gap-4">
-          <h1 className="text-4xl font-bold tracking-tight">
-            layout
-          </h1>
-          <p className="max-w-md text-lg text-muted-foreground">
-            To get started, send a prompt or modify this page directly.
-          </p>
-        </div>
+    <div className="min-h-screen bg-slate-50">
+      <Header />
+      <main>
+        <HeroSection />
+        <ProofBar />
+        <LossAversionSection />
+        <section id="framework">
+          <FrameworkSection />
+        </section>
+        <section id="deliverables">
+          <DeliverablesSection />
+        </section>
+        <section id="industries">
+          <IndustrySwitcher />
+        </section>
+        <FoundersCTA />
       </main>
+      <Footer />
     </div>
   );
 }
