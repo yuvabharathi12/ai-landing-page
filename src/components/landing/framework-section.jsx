@@ -46,8 +46,8 @@ export function FrameworkSection() {
             AI Power. Engineering Precision.
           </h2>
           <p className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
-            Our unique framework combines machine intelligence with human expertise 
-            to deliver layouts you can trust.
+            Our unique framework combines machine intelligence with human expertise to
+            deliver layouts you can trust.
           </p>
         </motion.div>
 
@@ -85,3 +85,4 @@ export function FrameworkSection() {
     </section>
   );
 }
+

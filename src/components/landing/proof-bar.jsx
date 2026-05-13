@@ -42,3 +42,4 @@ export function ProofBar() {
     </section>
   );
 }
+

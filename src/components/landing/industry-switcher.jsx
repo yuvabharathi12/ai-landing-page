@@ -73,7 +73,7 @@ export function IndustrySwitcher() {
             Tailored for Your Sector
           </h2>
           <p className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
-            Each industry has unique requirements. Our AI adapts to deliver compliant, 
+            Each industry has unique requirements. Our AI adapts to deliver compliant,
             optimized layouts specific to your operations.
           </p>
         </motion.div>
@@ -148,3 +148,4 @@ export function IndustrySwitcher() {
     </section>
   );
 }
+

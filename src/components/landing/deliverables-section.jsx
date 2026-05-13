@@ -50,7 +50,8 @@ export function DeliverablesSection() {
             Everything You Need to Break Ground
           </h2>
           <p className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
-            A complete deliverables package that satisfies stakeholders, regulators, and contractors.
+            A complete deliverables package that satisfies stakeholders, regulators, and
+            contractors.
           </p>
         </motion.div>
 
@@ -98,7 +99,7 @@ export function DeliverablesSection() {
               />
               <div className="absolute inset-0 bg-slate-900/30 flex items-center justify-center">
                 <button className="group flex items-center gap-3 rounded-full bg-white/90 backdrop-blur-sm px-6 py-4 shadow-lg hover:bg-white transition-colors">
-                  <div className="rounded-full bg-orange-500 p-3">
+                  <div className="rounded-full bg-blue-700 p-3">
                     <Play className="h-6 w-6 text-white fill-white" />
                   </div>
                   <div className="text-left">
@@ -116,3 +117,4 @@ export function DeliverablesSection() {
     </section>
   );
 }
+

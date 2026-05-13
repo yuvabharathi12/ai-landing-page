@@ -22,9 +22,9 @@ export function HeroSection() {
                 <span className="text-blue-700">Accelerated by Agentic AI.</span>
               </h1>
               <p className="text-lg text-slate-600 max-w-xl">
-                Transform complex site constraints into optimized industrial layouts. 
-                Our AI combines decades of engineering expertise with deterministic algorithms 
-                to deliver board-ready feasibility studies in 48 hours.
+                Transform complex site constraints into optimized industrial layouts. Our AI
+                combines decades of engineering expertise with deterministic algorithms to
+                deliver board-ready feasibility studies in 48 hours.
               </p>
             </div>
 
@@ -71,8 +71,12 @@ export function HeroSection() {
               <div className="absolute bottom-4 left-4 right-4 rounded-lg bg-white/90 backdrop-blur-sm border border-slate-200 p-3">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-xs text-slate-500 uppercase tracking-wide">Hybrid View</p>
-                    <p className="text-sm font-semibold text-slate-900">2D Plan → 3D Render Transition</p>
+                    <p className="text-xs text-slate-500 uppercase tracking-wide">
+                      Hybrid View
+                    </p>
+                    <p className="text-sm font-semibold text-slate-900">
+                      2D Plan → 3D Render Transition
+                    </p>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="h-2 w-2 rounded-full bg-green-500 animate-pulse" />
@@ -87,3 +91,4 @@ export function HeroSection() {
     </section>
   );
 }
+

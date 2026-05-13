@@ -15,14 +15,20 @@ export function Footer() {
               </span>
             </div>
             <p className="text-sm max-w-sm mb-4">
-              AI-powered industrial layout engineering. Transform complex site constraints 
+              AI-powered industrial layout engineering. Transform complex site constraints
               into optimized, board-ready feasibility studies.
             </p>
             <div className="flex items-center gap-4">
-              <a href="#" className="rounded-lg bg-slate-800 p-2 hover:bg-slate-700 transition-colors">
+              <a
+                href="#"
+                className="rounded-lg bg-slate-800 p-2 hover:bg-slate-700 transition-colors"
+              >
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="rounded-lg bg-slate-800 p-2 hover:bg-slate-700 transition-colors">
+              <a
+                href="#"
+                className="rounded-lg bg-slate-800 p-2 hover:bg-slate-700 transition-colors"
+              >
                 <Mail className="h-5 w-5" />
               </a>
             </div>
@@ -31,10 +37,26 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-white mb-4">Solutions</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">Warehouse Layout</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Food Processing</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Pharmaceutical</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Automotive</a></li>
+              <li>
+                <a href="#" className="hover:text-white transition-colors">
+                  Warehouse Layout
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-white transition-colors">
+                  Food Processing
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-white transition-colors">
+                  Pharmaceutical
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-white transition-colors">
+                  Automotive
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -47,7 +69,10 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-blue-400" />
-                <a href="mailto:hello@layoutx.ai" className="hover:text-white transition-colors">
+                <a
+                  href="mailto:hello@layoutx.ai"
+                  className="hover:text-white transition-colors"
+                >
                   hello@layoutx.ai
                 </a>
               </div>
@@ -58,11 +83,16 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
           <p>&copy; 2026 LayoutX.Ai. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <a href="#" className="hover:text-white transition-colors">
+              Privacy Policy
+            </a>
+            <a href="#" className="hover:text-white transition-colors">
+              Terms of Service
+            </a>
           </div>
         </div>
       </div>
     </footer>
   );
 }
+

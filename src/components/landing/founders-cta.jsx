@@ -27,9 +27,9 @@ export function FoundersCTA() {
                 &ldquo;
               </div>
               <p className="text-xl text-slate-700 italic pl-8">
-                Having spent two decades at the intersection of civil engineering and 
-                computational design—including research at IISc Bangalore—I built LayoutX.Ai 
-                to solve a problem I faced on every project: the gap between conceptual 
+                Having spent two decades at the intersection of civil engineering and
+                computational design—including research at IISc Bangalore—I built LayoutX.Ai
+                to solve a problem I faced on every project: the gap between conceptual
                 feasibility and construction reality.
               </p>
               <p className="text-xl text-slate-700 italic pl-8 mt-4">
@@ -84,7 +84,8 @@ export function FoundersCTA() {
                   <div>
                     <p className="font-semibold text-slate-900">PE-Stamped Output</p>
                     <p className="text-sm text-slate-600">
-                      Every deliverable reviewed and certified by a licensed Professional Engineer.
+                      Every deliverable reviewed and certified by a licensed Professional
+                      Engineer.
                     </p>
                   </div>
                 </div>
@@ -114,3 +115,4 @@ export function FoundersCTA() {
     </section>
   );
 }
+

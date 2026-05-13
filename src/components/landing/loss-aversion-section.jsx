@@ -23,8 +23,9 @@ export function LossAversionSection() {
             </h2>
 
             <p className="text-lg text-slate-600">
-              Formation Level Datum (FLD) errors are the silent killers of industrial projects. 
-              A miscalculation of just 300mm in finished floor level can cascade into:
+              Formation Level Datum (FLD) errors are the silent killers of industrial
+              projects. A miscalculation of just 300mm in finished floor level can
+              cascade into:
             </p>
 
             <div className="space-y-4">
@@ -33,9 +34,12 @@ export function LossAversionSection() {
                   <TrendingDown className="h-5 w-5 text-red-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-slate-900">Earthwork Cost Overruns</h4>
+                  <h4 className="font-semibold text-slate-900">
+                    Earthwork Cost Overruns
+                  </h4>
                   <p className="text-sm text-slate-600">
-                    Unexpected cut/fill volumes can add $50,000-$150,000 to your excavation budget.
+                    Unexpected cut/fill volumes can add $50,000-$150,000 to your
+                    excavation budget.
                   </p>
                 </div>
               </div>
@@ -45,9 +49,12 @@ export function LossAversionSection() {
                   <Calculator className="h-5 w-5 text-red-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-slate-900">Drainage & Compliance Failures</h4>
+                  <h4 className="font-semibold text-slate-900">
+                    Drainage & Compliance Failures
+                  </h4>
                   <p className="text-sm text-slate-600">
-                    Improper site grading leads to water ingress, regulatory rejection, and costly redesigns.
+                    Improper site grading leads to water ingress, regulatory rejection,
+                    and costly redesigns.
                   </p>
                 </div>
               </div>
@@ -59,7 +66,8 @@ export function LossAversionSection() {
                 <div>
                   <h4 className="font-semibold text-slate-900">Schedule Delays</h4>
                   <p className="text-sm text-slate-600">
-                    FLD corrections mid-construction can delay project handover by 4-8 weeks.
+                    FLD corrections mid-construction can delay project handover by 4-8
+                    weeks.
                   </p>
                 </div>
               </div>
@@ -67,8 +75,8 @@ export function LossAversionSection() {
 
             <div className="rounded-xl border-2 border-blue-700 bg-blue-50 p-6">
               <p className="text-lg font-semibold text-blue-900">
-                LayoutX.Ai eliminates FLD risk by validating every datum against topographic survey data 
-                before your first excavator arrives on site.
+                LayoutX.Ai eliminates FLD risk by validating every datum against
+                topographic survey data before your first excavator arrives on site.
               </p>
             </div>
           </motion.div>
@@ -106,7 +114,9 @@ export function LossAversionSection() {
               </div>
             </div>
             <div className="absolute -bottom-4 -left-4 rounded-xl border border-slate-200 bg-white p-4 shadow-lg">
-              <p className="text-xs text-slate-500 uppercase tracking-wide">Potential Savings</p>
+              <p className="text-xs text-slate-500 uppercase tracking-wide">
+                Potential Savings
+              </p>
               <p className="text-2xl font-bold text-green-600">$200,000+</p>
             </div>
           </motion.div>
@@ -115,3 +125,4 @@ export function LossAversionSection() {
     </section>
   );
 }
+
